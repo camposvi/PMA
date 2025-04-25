@@ -14,6 +14,7 @@ const App = () => {
       selectedProjectID: null,
     }));
   };
+
   let content =
     projectsState.selectedProjectID === null ? (
       <NewProject />
