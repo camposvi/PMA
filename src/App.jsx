@@ -33,6 +33,7 @@ const App = () => {
       };
     });
   };
+
   let content =
     projectsState.selectedProjectID === null ? (
       <NewProject onAdd={handleAddProject} onCancel={handleCancelAddProject} />
