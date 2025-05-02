@@ -1,5 +1,5 @@
 import { createPortal } from 'react-dom';
-import { Button } from '../Shared/Button';
+import { Button } from './Button';
 const Modal = ({ children, ref, buttonCaption }) => {
   return createPortal(
     <dialog
