@@ -11,7 +11,7 @@ const SelectedProject = ({ project }) => {
           <h1 className="text-3xl font-bold text-stone-600 mb-2">
             {project.title}
           </h1>
-          <button className="text-stone-600 hover:text-snone-950">
+          <button className="text-stone-600 hover:text-stone-950">
             Delete
           </button>
         </div>
